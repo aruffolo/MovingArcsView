@@ -1,6 +1,5 @@
 # MovingArcsMenu
 
-[![CI Status](http://img.shields.io/travis/aruffolo/MovingArcsMenu.svg?style=flat)](https://travis-ci.org/aruffolo/MovingArcsMenu)
 [![Version](https://img.shields.io/cocoapods/v/MovingArcsMenu.svg?style=flat)](http://cocoapods.org/pods/MovingArcsMenu)
 [![License](https://img.shields.io/cocoapods/l/MovingArcsMenu.svg?style=flat)](http://cocoapods.org/pods/MovingArcsMenu)
 [![Platform](https://img.shields.io/cocoapods/p/MovingArcsMenu.svg?style=flat)](http://cocoapods.org/pods/MovingArcsMenu)
@@ -22,7 +21,7 @@ pod 'MovingArcsMenu'
 
 ## Author
 
-aruffolo, antonioruffolo2@gmail.com
+Antonio Ruffolo
 
 ## License
 

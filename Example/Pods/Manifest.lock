@@ -1,0 +1,16 @@
+PODS:
+  - MovingArcsMenu (0.1.0)
+
+DEPENDENCIES:
+  - MovingArcsMenu (from `../`)
+
+EXTERNAL SOURCES:
+  MovingArcsMenu:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MovingArcsMenu: 3f8cdad637a28d3e51515b1034b6b4c839eff6e0
+
+PODFILE CHECKSUM: d2d9f4ea7fe4ee7af895c9a434cce2dbbd3174be
+
+COCOAPODS: 1.2.1

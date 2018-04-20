@@ -1,0 +1,6 @@
+framework module MovingArcsMenu {
+  umbrella header "MovingArcsMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}
