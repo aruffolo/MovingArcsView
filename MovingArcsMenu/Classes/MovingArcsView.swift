@@ -22,7 +22,7 @@ public enum ArcsViewsError: Error
 }
 
 // tip to rember, the line that is being drawned around the path is at the center of the bezier arc radius
-class MovingArcsView: UIView
+public class MovingArcsView: UIView
 {
   private var viewsOnExternalArc: ArcsButtonsNumber = .four
   private var viewsOnMiddleArc: ArcsButtonsNumber = .three
@@ -83,7 +83,7 @@ class MovingArcsView: UIView
   private var startAnimationIsInProgress: Bool = false
   private var reverseAnimationIsInProgress: Bool = false
   
-  typealias ArcColors = (innerArcColor: UIColor, middleArcColor: UIColor, externalArcColor: UIColor, innerArcShadowColor: UIColor, middleArcShadowColor: UIColor, externalArcShadowColor: UIColor)
+  public typealias ArcColors = (innerArcColor: UIColor, middleArcColor: UIColor, externalArcColor: UIColor, innerArcShadowColor: UIColor, middleArcShadowColor: UIColor, externalArcShadowColor: UIColor)
   
   /// Fucntion needed to inject dependencies into the view. The view must now the tag of each button in each arc, the image to place in each button, the scale of the buttons etc.
   ///
@@ -132,12 +132,12 @@ class MovingArcsView: UIView
     self.buttonScale = buttonScale
   }
   
-  override func layoutSubviews()
+  override public func layoutSubviews()
   {
     // nothing to do here for now
   }
   
-  override func didMoveToWindow()
+  override public func didMoveToWindow()
   {
     // nothing to do here for now
   }
@@ -665,7 +665,7 @@ class MovingArcsView: UIView
 
 extension MovingArcsView: CAAnimationDelegate
 {
-  func animationDidStop(_ anim: CAAnimation, finished flag: Bool)
+  public func animationDidStop(_ anim: CAAnimation, finished flag: Bool)
   {
     if let name = anim.value(forKey: externalPathAnimKey) as? String
     {

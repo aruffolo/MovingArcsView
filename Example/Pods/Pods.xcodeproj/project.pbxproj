@@ -7,18 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		126C7FA61A1C103B13698D9C09843F44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		12A08F671BD10E134E744DC4AF803D57 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		154BC7CC46467C370C29547A2E8CA156 /* MovingArcsMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EEE6E2645B298DEAD5F7F5C15DDF08 /* MovingArcsMenu-dummy.m */; };
+		37CAAD19FB82A01840EFA2CA092BFE15 /* AnimationsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671DF6AB1B676D44B1819837725EE1AC /* AnimationsFactory.swift */; };
+		3F5414B4D68C7B4907FC303BCFAF35C9 /* MovingArcsMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 673352C1C38340282D4851EEE6CFE481 /* MovingArcsMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		43ACEC59BC48893475D37D9BE964822F /* Pods-MovingArcsMenu_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3C71704292D6E54C1C8F5DB7BAB8F00 /* Pods-MovingArcsMenu_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DB7876FB20D6BFC9942B6A38FAA8440 /* Pods-MovingArcsMenu_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C22EC2E7D7B965F8451D5930AB0055 /* Pods-MovingArcsMenu_Example-dummy.m */; };
+		54720059689531E677E7C80729CD69BD /* ViewsInArcData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56D351DC4A1F1EA1417292B86FA568D /* ViewsInArcData.swift */; };
 		7B55294B6D4488048B8CFB553E3D5089 /* Pods-MovingArcsMenu_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7084C20DF347DF5FFBEDFB016AFD0EE /* Pods-MovingArcsMenu_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D4891CF208A77DC00CAE5F5 /* MovingArcsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4891CE208A77DC00CAE5F5 /* MovingArcsView.swift */; };
-		7D4891D1208A789900CAE5F5 /* ViewsInArcData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4891D0208A789900CAE5F5 /* ViewsInArcData.swift */; };
-		7D4891D3208A78DB00CAE5F5 /* AnimationsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4891D2208A78DB00CAE5F5 /* AnimationsFactory.swift */; };
-		8114513D528461690BF4966476BC4413 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		96A57DE74ADF59C3F04204007A816EA6 /* MovingArcsMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 673352C1C38340282D4851EEE6CFE481 /* MovingArcsMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B3C8F5AD113B58E81B557905F1C61470 /* MovingArcsMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EEE6E2645B298DEAD5F7F5C15DDF08 /* MovingArcsMenu-dummy.m */; };
+		8114513D528461690BF4966476BC4413 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		D763A07A57C20F0D702346B4F6ACFB86 /* Pods-MovingArcsMenu_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 865EB58F7965C7BDA2FF975C73711FF3 /* Pods-MovingArcsMenu_Tests-dummy.m */; };
-		ED5A46151B04BC5C5D1739DA3D78F8C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		ED5A46151B04BC5C5D1739DA3D78F8C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		FCC949C65C3F2A465F46D8AF7ED2E07B /* MovingArcsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18060FAF6E7E634A810CD717DED71A9C /* MovingArcsView.swift */; };
+		FD3B1417E11CD6A3BE17B284338C38DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,7 +27,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D633269D524F77CA28C1CF3610D44A83;
+			remoteGlobalIDString = E5486132BBAF79B77FDF5F79FC0DC91E;
 			remoteInfo = MovingArcsMenu;
 		};
 /* End PBXContainerItemProxy section */
@@ -34,36 +35,37 @@
 /* Begin PBXFileReference section */
 		0E4791FB3409501CF29892E2BEAF8A5A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14C22EC2E7D7B965F8451D5930AB0055 /* Pods-MovingArcsMenu_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MovingArcsMenu_Example-dummy.m"; sourceTree = "<group>"; };
+		18060FAF6E7E634A810CD717DED71A9C /* MovingArcsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MovingArcsView.swift; sourceTree = "<group>"; };
 		19EEE6E2645B298DEAD5F7F5C15DDF08 /* MovingArcsMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MovingArcsMenu-dummy.m"; sourceTree = "<group>"; };
 		1A63746D4161B588685E11EBE8F84FF6 /* Pods-MovingArcsMenu_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MovingArcsMenu_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2B5BA6979667AC5C06C952491913FEC9 /* Pods-MovingArcsMenu_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MovingArcsMenu_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3142074DF57692BA3970FC31F2376006 /* Pods-MovingArcsMenu_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MovingArcsMenu_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		379913A22A6303449F63D2CDF4ABB131 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		37A1BD659A31E33FDAE83CB9905EBF1C /* Pods-MovingArcsMenu_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MovingArcsMenu_Tests.modulemap"; sourceTree = "<group>"; };
+		37A1BD659A31E33FDAE83CB9905EBF1C /* Pods-MovingArcsMenu_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MovingArcsMenu_Tests.modulemap"; sourceTree = "<group>"; };
 		38D918190A6ED76E2E41477EC98C6B42 /* Pods-MovingArcsMenu_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MovingArcsMenu_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		55D8AB772F4997ABD59B6697BB7ECA2C /* MovingArcsMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MovingArcsMenu.modulemap; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		55D8AB772F4997ABD59B6697BB7ECA2C /* MovingArcsMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MovingArcsMenu.modulemap; sourceTree = "<group>"; };
+		671DF6AB1B676D44B1819837725EE1AC /* AnimationsFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnimationsFactory.swift; sourceTree = "<group>"; };
 		673352C1C38340282D4851EEE6CFE481 /* MovingArcsMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MovingArcsMenu-umbrella.h"; sourceTree = "<group>"; };
 		77F600901EDFD98ABE2C8A32DF8B5CAD /* Pods-MovingArcsMenu_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MovingArcsMenu_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		790E2F21DD16B0B2F4E2F65A15D874F9 /* Pods-MovingArcsMenu_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MovingArcsMenu_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7ADE837CE4C2793726AFE16A2FA41C2F /* MovingArcsMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MovingArcsMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D4891CE208A77DC00CAE5F5 /* MovingArcsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingArcsView.swift; sourceTree = "<group>"; };
-		7D4891D0208A789900CAE5F5 /* ViewsInArcData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsInArcData.swift; sourceTree = "<group>"; };
-		7D4891D2208A78DB00CAE5F5 /* AnimationsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsFactory.swift; sourceTree = "<group>"; };
-		8285CDDB9666EBAE080335FE865016CD /* Pods_MovingArcsMenu_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MovingArcsMenu_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		85DF4553E044642EAB783A573D937BBA /* Pods-MovingArcsMenu_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MovingArcsMenu_Example.modulemap"; sourceTree = "<group>"; };
+		7ADE837CE4C2793726AFE16A2FA41C2F /* MovingArcsMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MovingArcsMenu.framework; path = MovingArcsMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8285CDDB9666EBAE080335FE865016CD /* Pods_MovingArcsMenu_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MovingArcsMenu_Tests.framework; path = "Pods-MovingArcsMenu_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85DF4553E044642EAB783A573D937BBA /* Pods-MovingArcsMenu_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MovingArcsMenu_Example.modulemap"; sourceTree = "<group>"; };
 		865EB58F7965C7BDA2FF975C73711FF3 /* Pods-MovingArcsMenu_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MovingArcsMenu_Tests-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9B8DE8809E8335B70185FB3CC375832E /* Pods-MovingArcsMenu_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MovingArcsMenu_Example-resources.sh"; sourceTree = "<group>"; };
 		A107FF0D2C129CFB40234CE6FDF885F4 /* Pods-MovingArcsMenu_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MovingArcsMenu_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A56D351DC4A1F1EA1417292B86FA568D /* ViewsInArcData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ViewsInArcData.swift; sourceTree = "<group>"; };
 		A837875C10592060A2E70DF62920B945 /* Pods-MovingArcsMenu_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MovingArcsMenu_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		C7084C20DF347DF5FFBEDFB016AFD0EE /* Pods-MovingArcsMenu_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MovingArcsMenu_Example-umbrella.h"; sourceTree = "<group>"; };
 		D31DFF57CF1F3750BEBE163936B381AF /* MovingArcsMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MovingArcsMenu.xcconfig; sourceTree = "<group>"; };
 		D3C71704292D6E54C1C8F5DB7BAB8F00 /* Pods-MovingArcsMenu_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MovingArcsMenu_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D5CE704C89B88C579EBE43FCE20F9868 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DF751CE6E857F627074C4CF0D6703838 /* Pods-MovingArcsMenu_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MovingArcsMenu_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E18C883243A6693DE0C94EF57D6ED336 /* MovingArcsMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MovingArcsMenu-prefix.pch"; sourceTree = "<group>"; };
-		F8796A547661965A4B67BF654064A550 /* Pods_MovingArcsMenu_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MovingArcsMenu_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8796A547661965A4B67BF654064A550 /* Pods_MovingArcsMenu_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MovingArcsMenu_Example.framework; path = "Pods-MovingArcsMenu_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB091FCF79B7B073E7CEEED14024E129 /* Pods-MovingArcsMenu_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MovingArcsMenu_Tests-resources.sh"; sourceTree = "<group>"; };
 		FD5C31820F7CB10DB1CA3DFD0EB757C3 /* Pods-MovingArcsMenu_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MovingArcsMenu_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,11 +79,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		732298F82B09BEC8F0AB57F558914D9D /* Frameworks */ = {
+		21497346CE26FD2228E347B75824513B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				126C7FA61A1C103B13698D9C09843F44 /* Foundation.framework in Frameworks */,
+				FD3B1417E11CD6A3BE17B284338C38DB /* Foundation.framework in Frameworks */,
+				12A08F671BD10E134E744DC4AF803D57 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,11 +120,37 @@
 		11DB761C0BEE0AB76EB1CAA6AD575980 /* MovingArcsMenu */ = {
 			isa = PBXGroup;
 			children = (
-				63515BFA4E1ECB7DA6FEA7025582DF63 /* MovingArcsMenu */,
+				27AF5B962B69565689F485D8B26201CA /* MovingArcsMenu */,
 				C05E098AC9D0B367378378F8993A0DD3 /* Support Files */,
 			);
 			name = MovingArcsMenu;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		27AF5B962B69565689F485D8B26201CA /* MovingArcsMenu */ = {
+			isa = PBXGroup;
+			children = (
+				EA62E53A7D1B44D56A06890CE0B0F164 /* Classes */,
+			);
+			name = MovingArcsMenu;
+			path = MovingArcsMenu;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		4D209170B1040609A21BB3E5B2C28E7B /* Products */ = {
@@ -142,33 +171,15 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		63515BFA4E1ECB7DA6FEA7025582DF63 /* MovingArcsMenu */ = {
-			isa = PBXGroup;
-			children = (
-				8A325B3F8FF952D99C6F6217C4BFD0A8 /* Classes */,
-			);
-			path = MovingArcsMenu;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				576983F60648134D5BAF40D6C5BC48C3 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				4D209170B1040609A21BB3E5B2C28E7B /* Products */,
 				B12B04873E50CAA5C5A5546460C59EBE /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8A325B3F8FF952D99C6F6217C4BFD0A8 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				7D4891CE208A77DC00CAE5F5 /* MovingArcsView.swift */,
-				7D4891D0208A789900CAE5F5 /* ViewsInArcData.swift */,
-				7D4891D2208A78DB00CAE5F5 /* AnimationsFactory.swift */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		B10AE0E76FCC9A2249DDC68762A37823 /* Pods-MovingArcsMenu_Tests */ = {
@@ -198,14 +209,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		C05E098AC9D0B367378378F8993A0DD3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -220,12 +223,15 @@
 			path = "Example/Pods/Target Support Files/MovingArcsMenu";
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		EA62E53A7D1B44D56A06890CE0B0F164 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				671DF6AB1B676D44B1819837725EE1AC /* AnimationsFactory.swift */,
+				18060FAF6E7E634A810CD717DED71A9C /* MovingArcsView.swift */,
+				A56D351DC4A1F1EA1417292B86FA568D /* ViewsInArcData.swift */,
 			);
-			name = iOS;
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,11 +245,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		510612DDC9EAC80255BE605C93551B97 /* Headers */ = {
+		960D1FA597A5E331043AD17897E3E7E8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96A57DE74ADF59C3F04204007A816EA6 /* MovingArcsMenu-umbrella.h in Headers */,
+				3F5414B4D68C7B4907FC303BCFAF35C9 /* MovingArcsMenu-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,13 +299,13 @@
 			productReference = 8285CDDB9666EBAE080335FE865016CD /* Pods_MovingArcsMenu_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D633269D524F77CA28C1CF3610D44A83 /* MovingArcsMenu */ = {
+		E5486132BBAF79B77FDF5F79FC0DC91E /* MovingArcsMenu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4BDB7346118DE26AF0FD2E1B83855E18 /* Build configuration list for PBXNativeTarget "MovingArcsMenu" */;
+			buildConfigurationList = 3869F7FB7F2584ABC9700593A1746DE6 /* Build configuration list for PBXNativeTarget "MovingArcsMenu" */;
 			buildPhases = (
-				4F1A35BFB5761A680080B4EEE2F97F8D /* Sources */,
-				732298F82B09BEC8F0AB57F558914D9D /* Frameworks */,
-				510612DDC9EAC80255BE605C93551B97 /* Headers */,
+				8BAA86CEC267D129FD3505446DBF8CA8 /* Sources */,
+				21497346CE26FD2228E347B75824513B /* Frameworks */,
+				960D1FA597A5E331043AD17897E3E7E8 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -318,11 +324,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					D633269D524F77CA28C1CF3610D44A83 = {
-						LastSwiftMigration = 0920;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -336,7 +337,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D633269D524F77CA28C1CF3610D44A83 /* MovingArcsMenu */,
+				E5486132BBAF79B77FDF5F79FC0DC91E /* MovingArcsMenu */,
 				4E8B0147A4BDE8ADBCF8EBF35CE70F55 /* Pods-MovingArcsMenu_Example */,
 				5571732EA8CF1E11DEA6C2695F35740E /* Pods-MovingArcsMenu_Tests */,
 			);
@@ -352,14 +353,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F1A35BFB5761A680080B4EEE2F97F8D /* Sources */ = {
+		8BAA86CEC267D129FD3505446DBF8CA8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3C8F5AD113B58E81B557905F1C61470 /* MovingArcsMenu-dummy.m in Sources */,
-				7D4891D3208A78DB00CAE5F5 /* AnimationsFactory.swift in Sources */,
-				7D4891CF208A77DC00CAE5F5 /* MovingArcsView.swift in Sources */,
-				7D4891D1208A789900CAE5F5 /* ViewsInArcData.swift in Sources */,
+				37CAAD19FB82A01840EFA2CA092BFE15 /* AnimationsFactory.swift in Sources */,
+				154BC7CC46467C370C29547A2E8CA156 /* MovingArcsMenu-dummy.m in Sources */,
+				FCC949C65C3F2A465F46D8AF7ED2E07B /* MovingArcsView.swift in Sources */,
+				54720059689531E677E7C80729CD69BD /* ViewsInArcData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,7 +378,7 @@
 		EE138A4118E16F4E8E0DDCA3C96C479D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MovingArcsMenu;
-			target = D633269D524F77CA28C1CF3610D44A83 /* MovingArcsMenu */;
+			target = E5486132BBAF79B77FDF5F79FC0DC91E /* MovingArcsMenu */;
 			targetProxy = DFDE65BA25CD2B6C1CC5C9CB798CC869 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -463,6 +464,41 @@
 			};
 			name = Release;
 		};
+		392C2B04F1CAEC53EBFC505785804EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D31DFF57CF1F3750BEBE163936B381AF /* MovingArcsMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MovingArcsMenu/MovingArcsMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MovingArcsMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MovingArcsMenu/MovingArcsMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MovingArcsMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		47BCE604E840816FE3FFED96CB33C590 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3142074DF57692BA3970FC31F2376006 /* Pods-MovingArcsMenu_Example.debug.xcconfig */;
@@ -502,17 +538,16 @@
 			};
 			name = Debug;
 		};
-		8E8DF43EBB402C483CC8A6635A4A0F96 /* Debug */ = {
+		9BB331E5CB7646DFE8B8757294ED1977 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D31DFF57CF1F3750BEBE163936B381AF /* MovingArcsMenu.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -525,18 +560,17 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MovingArcsMenu/MovingArcsMenu.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = MovingArcsMenu;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		BDD4549914AF12225D341ED62F41595B /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -624,41 +658,6 @@
 			};
 			name = Debug;
 		};
-		F77570E04F26A5B4F61DE2B1B3A3D52A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D31DFF57CF1F3750BEBE163936B381AF /* MovingArcsMenu.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MovingArcsMenu/MovingArcsMenu-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MovingArcsMenu/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MovingArcsMenu/MovingArcsMenu.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = MovingArcsMenu;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		FB5E463EC519B10011DF0FF1056B5308 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 38D918190A6ED76E2E41477EC98C6B42 /* Pods-MovingArcsMenu_Tests.debug.xcconfig */;
@@ -707,11 +706,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4BDB7346118DE26AF0FD2E1B83855E18 /* Build configuration list for PBXNativeTarget "MovingArcsMenu" */ = {
+		3869F7FB7F2584ABC9700593A1746DE6 /* Build configuration list for PBXNativeTarget "MovingArcsMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E8DF43EBB402C483CC8A6635A4A0F96 /* Debug */,
-				F77570E04F26A5B4F61DE2B1B3A3D52A /* Release */,
+				392C2B04F1CAEC53EBFC505785804EC5 /* Debug */,
+				9BB331E5CB7646DFE8B8757294ED1977 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

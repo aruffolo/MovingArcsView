@@ -1,9 +1,9 @@
 {
   "name": "MovingArcsMenu",
   "version": "0.1.0",
-  "summary": "A short description of MovingArcsMenu.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/aruffolo/MovingArcsMenu",
+  "summary": "MovingArcsMenu is a sublcass of UIView that let you have a buttons inside arcs at the bottom right of a view",
+  "description": "MovingArcsMenu is a UIView subclass that let you have buttons inside arcs on the bottom right of a view. The buttons inside the view can have just a backgound image. The arcs ar shown and hidden using a cool animation.\nIt is possible to customize the number of buttons, the color of the arcs and their shadow.\nMovingArcsMenu is very useful to create a bottom right menu, this position is the most accesible on every smartphone.",
+  "homepage": "https://github.com/aruffolo/MovingArcsView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,12 @@
     "aruffolo": "antonioruffolo2@gmail.com"
   },
   "source": {
-    "git": "https://github.com/aruffolo/MovingArcsMenu.git",
+    "git": "https://github.com/aruffolo/MovingArcsView.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "MovingArcsMenu/Classes/**/*"
+  "source_files": "MovingArcsMenu/Classes/**/*",
+  "frameworks": "UIKit"
 }
