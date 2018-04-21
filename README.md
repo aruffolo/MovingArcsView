@@ -10,6 +10,8 @@ MovingArcsMenu is a subclass of UIView, written in Swift, that creates a bottom 
 
 ![](ArcsViewOpen.PNG?raw=true "Arcs Screenshoot in 'A Complex Calc")
 
+You can see this menu in the iOS app: 'A Complex Calc': https://tinyurl.com/y9vnsmzx
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
